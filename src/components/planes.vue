@@ -1,8 +1,8 @@
 <template lang="html">
   <v-container fluid>
-      <v-row id="caja" align-content="center" justify="center">
-        <v-col cols="12" lg="4" >
-          <h1 id="titulo" >Conoce mis planes:</h1>
+      <v-row id="caja" align="center" justify="center">
+        <v-col cols="12" lg="5" >
+          <h1 id="titulo" >Conoce mis <span class="rojo">planes:</span></h1>
 
 
           <v-expansion-panels>
@@ -10,51 +10,53 @@
             <v-expansion-panel>
               <v-expansion-panel-header>Clases a domicilio</v-expansion-panel-header>
               <v-expansion-panel-content>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Vivo en Escandón y puedo llegar a donde quieres, siempre y cuando no sea muy lejos. La clase es personalizada e incluye los materiales que vayamos a usar.
+              </v-expansion-panel-content>
+              <v-expansion-panel-content class="price">
+                $200 pesos/hora
               </v-expansion-panel-content>
             </v-expansion-panel>
 
             <v-expansion-panel>
               <v-expansion-panel-header>Seguimiento virtual</v-expansion-panel-header>
               <v-expansion-panel-content>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Entiendo que la movilidad puede ser un problema y con tanta tecnología, a veces innecesaria. Te propongo un monitoreo constante utilizando Skype, Whatsapp o la plataforma que quieras. Estare monitoreandote y enviando nuevos ejercicios semanales, todos ellos personalizados a tus necesidades.
+              </v-expansion-panel-content>
+              <v-expansion-panel-content class="price">
+                $750 pesos/mensuales
               </v-expansion-panel-content>
             </v-expansion-panel>
 
             <v-expansion-panel>
-              <v-expansion-panel-header>Preparacion DELF</v-expansion-panel-header>
+              <v-expansion-panel-header>Preparación DELF</v-expansion-panel-header>
               <v-expansion-panel-content>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Si estas proximo a presentar un examen de idioma, ya sea Delf o cualquier otro, realizaremos un plan de estudio intensivo que garantice buenos resultados.
+              </v-expansion-panel-content>
+              <v-expansion-panel-content class="price">
+                A convenir
               </v-expansion-panel-content>
             </v-expansion-panel>
 
             <v-expansion-panel>
               <v-expansion-panel-header>Asistencia escolar</v-expansion-panel-header>
               <v-expansion-panel-content>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Plan enfocado para niños que necesiten tutoría con las clases escolares de francés.
+              </v-expansion-panel-content>
+              <v-expansion-panel-content class="price">
+                A convenir
               </v-expansion-panel-content>
             </v-expansion-panel>
 
             <v-expansion-panel>
-              <v-expansion-panel-header>Servicios de traduccion</v-expansion-panel-header>
+              <v-expansion-panel-header>Servicios de traducción</v-expansion-panel-header>
               <v-expansion-panel-content>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                ¿Necesitas una traducción en tiempo express?, ¿Ingles, Frances o Español?. Yo puedo 😊
+              </v-expansion-panel-content>
+              <v-expansion-panel-content class="price">
+                A convenir
               </v-expansion-panel-content>
             </v-expansion-panel>
-
-
           </v-expansion-panels>
-
-          <!-- <v-card>
-            <v-card-title>Clases a domicilio</v-card-title>
-          </v-card>
-          <v-card color="transparent">
-            <v-card-title>Seguimiento virtual</v-card-title>
-          </v-card>
-          <v-card>
-            <v-card-title>Preparacion DELF</v-card-title>
-          </v-card> -->
-
 
         </v-col>
       </v-row>
@@ -77,16 +79,32 @@ export default {
   }
   .container{
     background-image: url('~@/assets/cactusblanco.svg'), url('~@/assets/cactusblancoinv.svg');
-    background-position: center bottom, center top;
+    background-position: center bottom, right top;
     background-color: #0a4fff;
     background-size: 20vh;
     color: white;
     height: 100vh;
   }
+  .price{
+    text-align: right;
+    color: #ff0032;
+    font-weight: 900
+  }
+  .v-expansion-panel-content{
+    font-size: 2.5vh;
+  }
+  .v-expansion-panel-header{
+    color: #0a4fff;
+    font-size: 3.5vh
+  }
   #caja{
     height: 100%
   }
   #titulo{
+    color: #ffffff;
+    margin-bottom: 1em;
+    /* background-color: white */
+
   }
 
 

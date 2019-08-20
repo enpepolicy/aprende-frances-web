@@ -1,23 +1,26 @@
 <template>
   <v-app>
+    <promo/>
     <headere/>
     <planes/>
+    <sobre/>
   </v-app>
 </template>
 
 <script>
+import promo from './components/promo'
 import headere from './components/header'
 import planes from './components/planes'
+import sobre from './components/sobre'
 
 export default {
   name: 'App',
   components: {
     headere,
-    planes
-  },
-  data: () => ({
-    //
-  }),
+    planes,
+    sobre,
+    promo
+  }
 };
 </script>
 

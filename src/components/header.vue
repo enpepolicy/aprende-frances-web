@@ -1,19 +1,17 @@
 <template>
-  <v-app>
     <v-container id="cactus" fluid>
         <v-row id="cactustexto" align-content="center" justify="center">
           <v-col cols="10" >
-            <h1>Soy Adelaïde y quiero enseñarte mi idioma <span class="rojo">frances</span> ❤</h1>
+            <h1>Soy Adélaïde y quiero enseñarte <span class="rojo">frances</span> ❤</h1>
           </v-col>
 
           <v-col class="text-center" cols="10">
-            <v-btn dark color="#4FCE5D" >Escribeme al WA</v-btn>
+            <v-btn href="https://api.whatsapp.com/send?text=✋Hola%20Ade,%20me%20puedes%20dar%20mas%20información%20sobre%20los%20planes?&phone=573164961184" dark color="#4FCE5D" >Escribeme al WA</v-btn>
           </v-col>
 
         </v-row>
     </v-container>
 
-  </v-app>
 </template>
 
 <script>

@@ -20,7 +20,7 @@
             <v-expansion-panel>
               <v-expansion-panel-header>Seguimiento virtual</v-expansion-panel-header>
               <v-expansion-panel-content>
-                Entiendo que la movilidad puede ser un problema y con tanta tecnología, a veces innecesaria. Te propongo un monitoreo constante utilizando Skype, Whatsapp o la plataforma que quieras. Estare monitoreandote y enviando nuevos ejercicios semanales, todos ellos personalizados a tus necesidades.
+                Entiendo que la movilidad puede ser un problema y con tanta tecnología, a veces innecesaria. Te propongo un monitoreo constante utilizando Skype, Whatsapp o la plataforma que quieras. Estaré monitoreándote y enviando nuevos ejercicios semanales, todos ellos personalizados a tus necesidades.
               </v-expansion-panel-content>
               <v-expansion-panel-content class="price">
                 $750 pesos/mensuales
@@ -30,7 +30,7 @@
             <v-expansion-panel>
               <v-expansion-panel-header>Preparación DELF</v-expansion-panel-header>
               <v-expansion-panel-content>
-                Si estas proximo a presentar un examen de idioma, ya sea Delf o cualquier otro, realizaremos un plan de estudio intensivo que garantice buenos resultados.
+                Si estas próximo a presentar un examen de idioma, ya sea Delf o cualquier otro, realizaremos un plan de estudio intensivo que garantice buenos resultados.
               </v-expansion-panel-content>
               <v-expansion-panel-content class="price">
                 A convenir
@@ -50,7 +50,7 @@
             <v-expansion-panel>
               <v-expansion-panel-header>Servicios de traducción</v-expansion-panel-header>
               <v-expansion-panel-content>
-                ¿Necesitas una traducción en tiempo express?, ¿Ingles, Frances o Español?. Yo puedo 😊
+                ¿Necesitas una traducción en tiempo express?, ¿Inglés, Francés o Español?. Yo puedo 😊
               </v-expansion-panel-content>
               <v-expansion-panel-content class="price">
                 A convenir

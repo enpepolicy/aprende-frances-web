@@ -2,7 +2,7 @@
     <v-container id="cactus" fluid>
         <v-row id="cactustexto" align-content="center" justify="center">
           <v-col cols="10" >
-            <h1>Soy Adélaïde y quiero enseñarte <span class="rojo">frances</span> ❤</h1>
+            <h1>Soy Adélaïde y quiero enseñarte <span class="rojo">francés</span> ❤</h1>
           </v-col>
 
           <v-col class="text-center" cols="10">

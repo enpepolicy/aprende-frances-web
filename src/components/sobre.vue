@@ -17,7 +17,7 @@
         </v-col>
 
         <v-col class="text-center" cols="12">
-          <v-btn dark color="#ff0032" href="https://api.whatsapp.com/send?text=✋Hola%20Ade,%20me%20puedes%20dar%20mas%20información%20sobre%20los%20planes?&phone=573164961184" >Escribeme directo</v-btn>
+          <v-btn large dark color="#ff0032" href="https://api.whatsapp.com/send?text=✋Hola%20Ade,%20me%20puedes%20dar%20mas%20información%20sobre%20los%20planes?&phone=573164961184" >Escribeme directo</v-btn>
         </v-col>
 
       </v-row>

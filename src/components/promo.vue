@@ -1,6 +1,6 @@
 <template>
   <v-container  fluid>
-    <h1>🎉 50% de descuento en tu primera clase ✨</h1>
+    <h1>🎉 100% GRATIS tu primera clase ✨</h1>
 
   </v-container>
 </template>

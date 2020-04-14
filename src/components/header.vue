@@ -6,7 +6,7 @@
           </v-col>
 
           <v-col class="text-center" cols="10">
-            <v-btn large height="60" href="https://api.whatsapp.com/send?text=✋Hola%20Ade,%20me%20puedes%20dar%20mas%20información%20sobre%20los%20planes?&phone=573164961184" dark color="#4FCE5D" >Escribeme al WA</v-btn>
+            <v-btn large height="60" href="https://api.whatsapp.com/send?text=✋Hola%20Ade,%20me%20puedes%20dar%20mas%20información%20sobre%20los%20planes?&phone=525539537088" dark color="#4FCE5D" >Escribeme al WA</v-btn>
           </v-col>
 
         </v-row>

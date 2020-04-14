@@ -3,7 +3,7 @@
       <v-row id="caja" align-content="center" justify="center">
         <v-col cols="10" lg="5" >
           <h1 id="titulo" ><span class="rojo">Sobre mi...</span></h1>
-          <p>Soy francesa y tengo 22 años. Me encuentro en CDMX estudiando una maestria en comercio de arte y gestion cultural. Vengo de una familia de profes y siempre me ha gustado enseñar.</p><br>
+          <p>Soy francesa y tengo 23 años. Me encuentro en CDMX estudiando una maestria en comercio de arte y gestion cultural. Vengo de una familia de profes y siempre me ha gustado enseñar.</p><br>
           <h2>📩 <em>adelaide.keraldy@gmail.com</em></h2>
 
         </v-col>
@@ -17,7 +17,7 @@
         </v-col>
 
         <v-col class="text-center" cols="12">
-          <v-btn large dark color="#ff0032" href="https://api.whatsapp.com/send?text=✋Hola%20Ade,%20me%20puedes%20dar%20mas%20información%20sobre%20los%20planes?&phone=573164961184" >Escribeme directo</v-btn>
+          <v-btn large dark color="#ff0032" href="https://api.whatsapp.com/send?text=✋Hola%20Ade,%20me%20puedes%20dar%20mas%20información%20sobre%20los%20planes?&phone=525539537088" >Escribeme directo</v-btn>
         </v-col>
 
       </v-row>

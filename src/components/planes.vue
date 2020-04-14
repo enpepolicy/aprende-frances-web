@@ -8,12 +8,22 @@
           <v-expansion-panels>
 
             <v-expansion-panel>
-              <v-expansion-panel-header>Clases a domicilio</v-expansion-panel-header>
+              <v-expansion-panel-header>Clases Online</v-expansion-panel-header>
               <v-expansion-panel-content>
-                Vivo en Escandón y puedo llegar a donde quieres, siempre y cuando no sea muy lejos. La clase es personalizada e incluye los materiales que vayamos a usar.
+                Hagamos de esta cuarentena una oportunidad para aprender.
               </v-expansion-panel-content>
               <v-expansion-panel-content class="price">
-                $200 pesos/hora
+                $220 pesos/hora y media
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+
+            <v-expansion-panel>
+              <v-expansion-panel-header>Clases a domicilio</v-expansion-panel-header>
+              <v-expansion-panel-content>
+                Vivo en Buenavista y puedo llegar a donde quieres, siempre y cuando no sea muy lejos. La clase es personalizada e incluye los materiales que vayamos a usar.
+              </v-expansion-panel-content>
+              <v-expansion-panel-content class="price">
+                $280 pesos/hora
               </v-expansion-panel-content>
             </v-expansion-panel>
 
